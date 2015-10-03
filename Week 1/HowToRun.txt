@@ -1,0 +1,2 @@
+in cmd naar deze map navigeren
+"node filenaam" om uit te voeren

@@ -1,0 +1,10 @@
+{
+  "name": "ConvertSyncToAsync",
+  "version": "0.0.0",
+  "description": "ConvertSyncToAsync",
+  "main": "app.js",
+  "author": {
+    "name": "jelle",
+    "email": ""
+  }
+}

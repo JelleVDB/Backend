@@ -1,0 +1,135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-inspector',
+1 verbose cli   '-gif(process.argv[2]',
+1 verbose cli   '==',
+1 verbose cli   '--help){' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose install initial load of C:\Users\jelle\Documents\School\3NMCT\Backend\Week 1\package.json
+5 verbose readDependencies loading dependencies from C:\Users\jelle\Documents\School\3NMCT\Backend\Week 1\package.json
+6 silly cache add args [ 'node-inspector', null ]
+7 verbose cache add spec node-inspector
+8 silly cache add args [ '==', null ]
+9 verbose cache add spec ==
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'node-inspector',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'node-inspector',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 silly addNamed node-inspector@*
+12 verbose addNamed "*" is a valid semver range for node-inspector
+13 silly addNameRange { name: 'node-inspector', range: '*', hasData: false }
+14 silly mapToRegistry name node-inspector
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/node-inspector
+18 verbose addNameRange registry:https://registry.npmjs.org/node-inspector not in flight; fetching
+19 silly cache add parsed spec Result {
+19 silly cache add   raw: '==',
+19 silly cache add   scope: null,
+19 silly cache add   name: null,
+19 silly cache add   rawSpec: '==',
+19 silly cache add   spec: 'C:\\Users\\jelle\\Documents\\School\\3NMCT\\Backend\\Week 1\\==',
+19 silly cache add   type: 'local' }
+20 error addLocal Could not install C:\Users\jelle\Documents\School\3NMCT\Backend\Week 1\==
+21 verbose request uri https://registry.npmjs.org/node-inspector
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 15:39:42
+24 verbose request id b55673c15d0bae02
+25 verbose etag "1RK8CWRJTGVGS4TFM6K7MRTHQ"
+26 http request GET https://registry.npmjs.org/node-inspector
+27 http 304 https://registry.npmjs.org/node-inspector
+28 silly get cb [ 304,
+28 silly get   { date: 'Thu, 24 Sep 2015 13:39:36 GMT',
+28 silly get     via: '1.1 varnish',
+28 silly get     'cache-control': 'max-age=60',
+28 silly get     etag: '"1RK8CWRJTGVGS4TFM6K7MRTHQ"',
+28 silly get     age: '18',
+28 silly get     connection: 'keep-alive',
+28 silly get     'x-served-by': 'cache-lhr6326-LHR',
+28 silly get     'x-cache': 'HIT',
+28 silly get     'x-cache-hits': '1',
+28 silly get     'x-timer': 'S1443101976.153672,VS0,VE2',
+28 silly get     vary: 'Accept' } ]
+29 verbose etag https://registry.npmjs.org/node-inspector from cache
+30 verbose get saving node-inspector to C:\Users\jelle\AppData\Roaming\npm-cache\registry.npmjs.org\node-inspector\.cache.json
+31 silly addNameRange number 2 { name: 'node-inspector', range: '*', hasData: true }
+32 silly addNameRange versions [ 'node-inspector',
+32 silly addNameRange   [ '0.0.1',
+32 silly addNameRange     '0.0.2',
+32 silly addNameRange     '0.0.3',
+32 silly addNameRange     '0.0.4',
+32 silly addNameRange     '0.1.0',
+32 silly addNameRange     '0.1.1',
+32 silly addNameRange     '0.1.2',
+32 silly addNameRange     '0.1.3',
+32 silly addNameRange     '0.1.4',
+32 silly addNameRange     '0.1.5',
+32 silly addNameRange     '0.1.6',
+32 silly addNameRange     '0.1.7',
+32 silly addNameRange     '0.1.8',
+32 silly addNameRange     '0.1.9',
+32 silly addNameRange     '0.1.10',
+32 silly addNameRange     '0.3.0',
+32 silly addNameRange     '0.3.1',
+32 silly addNameRange     '0.3.2',
+32 silly addNameRange     '0.3.3',
+32 silly addNameRange     '0.3.4',
+32 silly addNameRange     '0.4.0',
+32 silly addNameRange     '0.5.0',
+32 silly addNameRange     '0.6.0',
+32 silly addNameRange     '0.6.1',
+32 silly addNameRange     '0.6.2',
+32 silly addNameRange     '0.7.0-1',
+32 silly addNameRange     '0.2.0-beta1',
+32 silly addNameRange     '0.2.0-beta2',
+32 silly addNameRange     '0.2.0-beta3',
+32 silly addNameRange     '0.2.0-beta4',
+32 silly addNameRange     '0.3.0-preview1',
+32 silly addNameRange     '0.7.0-2',
+32 silly addNameRange     '0.7.0',
+32 silly addNameRange     '0.7.1',
+32 silly addNameRange     '0.7.2',
+32 silly addNameRange     '0.7.3',
+32 silly addNameRange     '0.7.4',
+32 silly addNameRange     '0.8.0',
+32 silly addNameRange     '0.8.1',
+32 silly addNameRange     '0.8.3',
+32 silly addNameRange     '0.9.0',
+32 silly addNameRange     '0.9.1',
+32 silly addNameRange     '0.9.2',
+32 silly addNameRange     '0.10.0',
+32 silly addNameRange     '0.10.1',
+32 silly addNameRange     '0.10.2',
+32 silly addNameRange     '0.11.0',
+32 silly addNameRange     '0.11.1',
+32 silly addNameRange     '0.11.2',
+32 silly addNameRange     '0.12.0',
+32 silly addNameRange     '0.12.1',
+32 silly addNameRange     '0.12.2',
+32 silly addNameRange     '0.12.3' ] ]
+33 silly addNamed node-inspector@0.12.3
+34 verbose addNamed "0.12.3" is a plain semver version for node-inspector
+35 silly cache afterAdd node-inspector@0.12.3
+36 verbose afterAdd C:\Users\jelle\AppData\Roaming\npm-cache\node-inspector\0.12.3\package\package.json not in flight; writing
+37 verbose afterAdd C:\Users\jelle\AppData\Roaming\npm-cache\node-inspector\0.12.3\package\package.json written
+38 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\jelle\Documents\School\3NMCT\Backend\Week 1\=='
+38 verbose stack     at Error (native)
+39 verbose cwd C:\Users\jelle\Documents\School\3NMCT\Backend\Week 1
+40 error Windows_NT 10.0.10240
+41 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-inspector" "-gif(process.argv[2]" "==" "--help){"
+42 error node v4.1.1
+43 error npm  v2.14.4
+44 error path C:\Users\jelle\Documents\School\3NMCT\Backend\Week 1\==
+45 error code ENOENT
+46 error errno -4058
+47 error syscall open
+48 error enoent ENOENT: no such file or directory, open 'C:\Users\jelle\Documents\School\3NMCT\Backend\Week 1\=='
+48 error enoent This is most likely not a problem with npm itself
+48 error enoent and is related to npm not being able to find a file.
+49 verbose exit [ -4058, true ]

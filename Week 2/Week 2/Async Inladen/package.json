@@ -1,0 +1,10 @@
+{
+  "name": "Async-Inladen",
+  "version": "0.0.0",
+  "description": "Async Inladen",
+  "main": "server.js",
+  "author": {
+    "name": "jelle",
+    "email": ""
+  }
+}
