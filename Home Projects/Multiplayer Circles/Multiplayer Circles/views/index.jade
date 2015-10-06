@@ -1,0 +1,16 @@
+﻿extends layout
+
+block content
+  canvas#gameCanvas
+    script(src='/socket.io/socket.io.js')
+    script(src='javascripts/jquery-1.11.2.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js')
+    script(src='javascripts/requestAnimationFrame.js')
+    script(src='javascripts/Mouse.js')
+    script(src='javascripts/Keys.js')
+    script(src='javascripts/Player.js')
+    script(src='javascripts/Game.js')
+    script.
+      // Initialise the game
+      init();
+      animate();

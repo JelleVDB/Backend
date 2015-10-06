@@ -1,0 +1,16 @@
+{
+  "name": "Multiplayer-Circles",
+  "version": "0.0.0",
+  "description": "Multiplayer Circles",
+  "main": "app.js",
+  "author": {
+    "name": "Jelle",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*",
+    "socket.io": "1.3.7"
+  }
+}
