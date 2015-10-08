@@ -1,0 +1,10 @@
+{
+  "name": "EventEmitters",
+  "version": "0.0.0",
+  "description": "EventEmitters",
+  "main": "server.js",
+  "author": {
+    "name": "jelle",
+    "email": ""
+  }
+}

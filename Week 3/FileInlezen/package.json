@@ -1,0 +1,10 @@
+{
+  "name": "FileInlezen",
+  "version": "0.0.0",
+  "description": "FileInlezen",
+  "main": "server.js",
+  "author": {
+    "name": "jelle",
+    "email": ""
+  }
+}

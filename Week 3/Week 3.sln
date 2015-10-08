@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "EventEmitters", "EventEmitters\EventEmitters.njsproj", "{DC258870-D054-45B4-A63B-ED2F5CDD5F97}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FileInlezen", "FileInlezen\FileInlezen.njsproj", "{07BA0622-5FFB-442A-B5C2-D1325CDC5626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC258870-D054-45B4-A63B-ED2F5CDD5F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC258870-D054-45B4-A63B-ED2F5CDD5F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC258870-D054-45B4-A63B-ED2F5CDD5F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC258870-D054-45B4-A63B-ED2F5CDD5F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BA0622-5FFB-442A-B5C2-D1325CDC5626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BA0622-5FFB-442A-B5C2-D1325CDC5626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BA0622-5FFB-442A-B5C2-D1325CDC5626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BA0622-5FFB-442A-B5C2-D1325CDC5626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
