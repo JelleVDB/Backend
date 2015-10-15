@@ -1,0 +1,13 @@
+{
+  "name": "Task_loaden_met_shift",
+  "version": "0.0.0",
+  "description": "Task_loaden_met_shift",
+  "main": "app.js",
+  "author": {
+    "name": "jelle",
+    "email": ""
+  },
+  "dependencies": {
+    "async": "1.4.2"
+  }
+}

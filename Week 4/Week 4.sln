@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Flow_Control", "Task_loaden_met_shift\Flow_Control.njsproj", "{10BD87E5-8A84-49EC-9083-597642356DFE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10BD87E5-8A84-49EC-9083-597642356DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BD87E5-8A84-49EC-9083-597642356DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BD87E5-8A84-49EC-9083-597642356DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BD87E5-8A84-49EC-9083-597642356DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
