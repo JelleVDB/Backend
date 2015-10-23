@@ -1,0 +1,10 @@
+{
+  "name": "TCPServer",
+  "version": "0.0.0",
+  "description": "TCPServer",
+  "main": "server.js",
+  "author": {
+    "name": "jelle",
+    "email": ""
+  }
+}

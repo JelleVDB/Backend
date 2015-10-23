@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ReadTxtFile", "ReadTxtFile\ReadTxtFile.njsproj", "{8E70B389-ABDB-4FE4-8F8B-F93C7BAF14E5}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "AlfabetStream", "AlfabetStream\AlfabetStream.njsproj", "{444AA23D-31DC-4D25-944C-68896F187918}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TCPServer", "TCPServer\TCPServer.njsproj", "{81B77B61-2AF0-492C-8D5F-30396DDECBAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E70B389-ABDB-4FE4-8F8B-F93C7BAF14E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E70B389-ABDB-4FE4-8F8B-F93C7BAF14E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E70B389-ABDB-4FE4-8F8B-F93C7BAF14E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E70B389-ABDB-4FE4-8F8B-F93C7BAF14E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444AA23D-31DC-4D25-944C-68896F187918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444AA23D-31DC-4D25-944C-68896F187918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444AA23D-31DC-4D25-944C-68896F187918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444AA23D-31DC-4D25-944C-68896F187918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B77B61-2AF0-492C-8D5F-30396DDECBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B77B61-2AF0-492C-8D5F-30396DDECBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B77B61-2AF0-492C-8D5F-30396DDECBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B77B61-2AF0-492C-8D5F-30396DDECBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

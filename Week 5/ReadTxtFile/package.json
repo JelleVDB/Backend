@@ -1,0 +1,10 @@
+{
+  "name": "ReadTxtFile",
+  "version": "0.0.0",
+  "description": "ReadTxtFile",
+  "main": "server.js",
+  "author": {
+    "name": "jelle",
+    "email": ""
+  }
+}

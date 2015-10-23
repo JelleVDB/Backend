@@ -1,0 +1,2 @@
+﻿Dit is een text file om in te lezen.
+Voor de rest heeft dit specifiek geen nut.

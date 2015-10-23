@@ -1,0 +1,10 @@
+{
+  "name": "AlfabetStream",
+  "version": "0.0.0",
+  "description": "AlfabetStream",
+  "main": "server.js",
+  "author": {
+    "name": "jelle",
+    "email": ""
+  }
+}
