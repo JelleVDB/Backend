@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TCPServer", "TCPServer\TCPServer.njsproj", "{ED0A4DE9-5E9C-4ED2-B4F9-64D0B113E929}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodejsWebApp1", "NodejsWebApp1\NodejsWebApp1.njsproj", "{70462960-CC71-4084-BCBE-F737F5D2C327}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodejsWebApp2", "01-staticServer_routerC\NodejsWebApp2.njsproj", "{F4769879-9103-406F-98D0-725AF412B640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED0A4DE9-5E9C-4ED2-B4F9-64D0B113E929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0A4DE9-5E9C-4ED2-B4F9-64D0B113E929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0A4DE9-5E9C-4ED2-B4F9-64D0B113E929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0A4DE9-5E9C-4ED2-B4F9-64D0B113E929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70462960-CC71-4084-BCBE-F737F5D2C327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70462960-CC71-4084-BCBE-F737F5D2C327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70462960-CC71-4084-BCBE-F737F5D2C327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70462960-CC71-4084-BCBE-F737F5D2C327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4769879-9103-406F-98D0-725AF412B640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4769879-9103-406F-98D0-725AF412B640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4769879-9103-406F-98D0-725AF412B640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4769879-9103-406F-98D0-725AF412B640}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
