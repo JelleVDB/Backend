@@ -1,0 +1,50 @@
+﻿extends layout
+
+block content
+  h1= title
+
+  p Dit project-skeleton illustreert backend communicatie flows tussen Mongo, Express, Socket & Angular.
+  span  De mogelijkheden kunnen gecombineerd worden, hoewel vaak voor één type communicatie gekozen wordt. Overweeg hierbij voor- en nadelen.
+
+  p <u>Aandachtspunten</u>(project) naar structuur en leesbaarheid van code
+    ul
+        li server:
+            ul
+                li initialisaties bij Express 4 gebeuren in www.js
+                li database via een service connecteren
+                li dataaccessors komen in het model (eventueel afzonderlijk repo) en niet tussen de routes
+                li sockethandlers in een afzonderlijke file (oproepbaar via event emittors)
+                li testen komen in de map test of tests
+                li zorg besteden aan error handling (algemene error pagina).
+                li javascript hinting toepassen vanuit package.json        
+        li cliënt: 
+            ul 
+                li scripts uit voorzorg in een namespace plaatsen
+                li vendor scripts & client script elk in een eigen map
+                li css neutraliseren met normalize.css
+                li verkies raw XMLHTTP boven jquery omwille van performantie
+                li sockets ipv XMLHTTP alleen bij kleinere messages
+
+  p <u>Voorbeelden:</u>
+    ul
+        li Met gebruik van een HTML preprocessor (jade, ejs):
+            ol
+                li 
+                    a(href="/users") HTML preprocessor (jade): 
+                    span   "rendert" de pagina's en maakt gebruik van views.
+                li 
+                    a(href="/api/users/apiCall/") HTML preprocessor  (jade) en XMLHTTP: 
+                    span Een jade view zorgt voor een XMLHTTP API call (ajax).
+        li Met raw HTML, zonder preprocessor:
+            ol
+                li 
+                    a(href="/api/users/apiCall/") HTML  zorgt voor een <b>XMLHTTP</b> API call (ajax). 
+                    span Gebruik van cliënt javascript en het XMLHTTP Request Object.
+                li 
+                    a(href="/indexSockets.html") <b>Sockets</b> ipv XMLHTTP: 
+                    span Gebruik van cliënt javascript. Een JSON object wordt via socket.emit() verstuurd.
+                li 
+                    a(href="indexNg.html#/") Communicatie met basic <b>Angular</b> via XMLHTTTP: 
+                    span Gebruik van een cliënt MVC framework en een SPA. 
+                    
+        

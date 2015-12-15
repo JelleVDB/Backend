@@ -18,15 +18,16 @@ router.get('/:name', function (req, res, next) {
         next();
     }
 });
-/*
+
+/* Met Middleware
 router.get('/:name', loadUser, function (req, res, next) {
     //deze code word vervangen door de loadUser middleware
-    //var user = users[req.params.name.toLowerCase()];
-    //if (user) {
+    var user = users[req.params.name.toLowerCase()];
+    if (user) {
         res.render('users/details', { title: 'User profile', user: req.user });
-    //} else {
-    //    next();
-    //}
+    } else {
+        next();
+    }
 });*/
 
 router.get('/new', function (req, res) {

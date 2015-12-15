@@ -1,0 +1,16 @@
+Gebruik Passport voor authorizatie.
+persona ook goed, iets minder goed gedocumenteert
+
+
+-config file in project
+-probeer zoveel mogelijk van app.js af te blijven
+	*beheren routes moet hier wel aangepast worden
+	*steek api in /routes/api
+-alle overige toevoegingen in /bin/www
+	*mongo als service defineren
+	*socket listeners (on...) in aparte file steken
+	*GEEN handlers, routes etc in www steken
+-geen dataaccessors in routes gebruiken
+	*hiervoor in models een repo maken
+-res.render => gaat naar view map, hierin word jade rerendered.
+	*geen html hier, deze moet niet worden gerendered

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Express_Testing", "..\..\..\..\..\Desktop\Basis_Expr4-UnitTesting\Express_Testing.njsproj", "{EDA0E004-2DDD-4716-A4D1-0353DA4DAB77}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "SocketStart", "..\..\..\..\..\Desktop\040-Demo-SocketStart\SocketStart.njsproj", "{70462960-CC71-4084-BCBE-F737F5D2C327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDA0E004-2DDD-4716-A4D1-0353DA4DAB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA0E004-2DDD-4716-A4D1-0353DA4DAB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA0E004-2DDD-4716-A4D1-0353DA4DAB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA0E004-2DDD-4716-A4D1-0353DA4DAB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70462960-CC71-4084-BCBE-F737F5D2C327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70462960-CC71-4084-BCBE-F737F5D2C327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70462960-CC71-4084-BCBE-F737F5D2C327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70462960-CC71-4084-BCBE-F737F5D2C327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

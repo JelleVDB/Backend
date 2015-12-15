@@ -1,4 +1,6 @@
-﻿function loadUser(req, res, next) {
+﻿var users = require("../../data/users.json");
+
+function loadUser(req, res, next) {
     var user = req.user = users[req.params.name.toLowerCase()];
     if (!user) {
         req.error = "Niet gevonden";
@@ -8,3 +10,5 @@
         next();
     }
 }
+
+module.exports = loadUser;
