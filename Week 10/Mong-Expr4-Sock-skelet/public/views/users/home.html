@@ -1,8 +1,0 @@
-﻿<div>
-    <!-- 1. De lijst met namen -->
-    <ul>
-        <li ng-repeat="user in userCtrl.users | orderBy : 'profession' ">
-            {{user._id}} - {{ user.name }} {{ user.username }}({{user.profession}})
-        </li>
-    </ul>
-</div>
